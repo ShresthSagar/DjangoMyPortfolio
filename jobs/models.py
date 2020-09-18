@@ -5,4 +5,5 @@ from django.db import models
 class Job (models.Model):
     images = models.ImageField(upload_to='images/')
     summary = models.CharField(max_length=150)
-    date = models.DateTimeField()
+    # postdate = models.DateTimeField()
+    # date = models.DateTimeField()
